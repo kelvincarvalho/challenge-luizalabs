@@ -17,7 +17,7 @@ public class AddressController {
     private AddressService addressService;
 
     @GetMapping(value = "/{zipCode}")
-    public AddressDTO getAddress(@PathVariable("zipCode") long zipCode) {
+    public AddressDTO getAddress(@PathVariable("zipCode") String zipCode) {
         return addressService.getAddress(zipCode);
     }
 

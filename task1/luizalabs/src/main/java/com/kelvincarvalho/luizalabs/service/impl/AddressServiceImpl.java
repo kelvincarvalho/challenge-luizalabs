@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class AddressServiceImpl implements AddressService {
 
     @Override
-    public AddressDTO getAddress(long zipCode) {
+    public AddressDTO getAddress(String zipCode) {
         return null;
     }
 

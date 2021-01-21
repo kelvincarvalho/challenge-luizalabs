@@ -4,6 +4,6 @@ import com.kelvincarvalho.luizalabs.model.AddressDTO;
 
 public interface AddressService {
 
-    AddressDTO getAddress(long zipCode);
+    AddressDTO getAddress(String zipCode);
 
 }
